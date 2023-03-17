@@ -98,5 +98,18 @@
         android:title="@string/charging_animation_title"
         android:summary="@string/charging_animation_summary"
         android:defaultValue="false" />
+    
+    <!-- App downgrade -->
+    <com.aicp.gear.preference.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/app_downgrade_title"
+        android:summary="@string/app_downgrade_summary"
+        android:defaultValue="false"/>
 
+    <!-- Ignore window -->
+    <com.aicp.gear.preference.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>
